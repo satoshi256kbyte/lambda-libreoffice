@@ -180,9 +180,9 @@ APIのデプロイを実行してください。
 https://hub.docker.com/r/amazon/aws-lambda-provided
 
 ### bootstrap、function.sh作成時の参考資料
-[dockerhub - amazon/aws-lambda-provided](https://docs.aws.amazon.com/lambda/) 
+[dockerhub - amazon/aws-lambda-provided](https://docs.aws.amazon.com/lambda/) `  
 ※Lambda用のAWS公式Dockerイメージです。  
- 
+
 [AWS - Tutorial – Publishing a custom runtime](latest/dg/runtimes-walkthrough.html)
 
 公式ドキュメントには特に記載はないが、  
