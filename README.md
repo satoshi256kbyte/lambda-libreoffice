@@ -16,6 +16,10 @@
   "to": "s3://example-to-bucket"
 }
 ```
+* APIはPDF変換したPDFファイルを出力先にアップロードし、そのパスを返却する。  
+```
+s3://example-to-bucket/lambda-libreoffice.pdf
+```
   
 このファイルでは、  
 本リポジトリのソースを用いて、  
