@@ -65,7 +65,7 @@ Error: Cannot perform an interactive login from a non TTY device
 aws cliのバージョンが古かったり(バージョン2が必要のようです)、  
 --regionではなく--profileでプロファイル名を指定したりすると解消するようです。  
   
-[AWS - AWS CLI バージョン 2 のインストール、更新、アンインストール](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/install-cliv2.html)
+[AWS - AWS CLI バージョン 2 のインストール、更新、アンインストール](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/install-cliv2.html)  
 [Qiita - ECRにdockerをプッシュする時に、credentialsのエラーが出たときの対処](https://qiita.com/nomi3/items/970b340caab59e8afb2e)
 
 ```
