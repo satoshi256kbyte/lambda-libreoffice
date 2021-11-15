@@ -48,8 +48,7 @@ aws ecr create-repository --repository-name lambda-libreoffice --region [region]
 }
 ```
 
-
-```[aws_account_id]```の部分は自身のアカウントIDに読み変えてください。
+返却値の```[aws_account_id]```の部分は自身のアカウントIDに読み変えてください。
 この後は ConsoleでECRの画面を開き、作成されたリポジトリを見ます。  
 「プッシュコマンドの表示」というボタンがあるのでそれをクリック。  
 以降、表示されているコマンドを実行していくとビルド〜プッシュができます。  
@@ -67,7 +66,7 @@ aws cliのバージョンが古かったり(バージョン2が必要のよう�
 --regionではなく--profileでプロファイル名を指定したりすると解消するようです。  
   
 [AWS - AWS CLI バージョン 2 のインストール、更新、アンインストール](https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/install-cliv2.html)
-[Qiita - https://qiita.com/nomi3/items/970b340caab59e8afb2e](https://qiita.com/nomi3/items/970b340caab59e8afb2e)
+[Qiita - ECRにdockerをプッシュする時に、credentialsのエラーが出たときの対処](https://qiita.com/nomi3/items/970b340caab59e8afb2e)
 
 ```
 denied: Your authorization token has expired. Reauthenticate and try again.
